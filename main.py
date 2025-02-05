@@ -40,8 +40,6 @@ from converter.git import setup_git_handler
 from stringsession.string import setup_string_handler
 from others.reboot import setup_reboot_handler
 from others.alive import setup_alive_handler 
-from creditcards.scr import setup_scr_handler
-from educationutils.email import setup_email_handler
 from converter.ban import setup_ban_handlers
 from converter.cric import setup_cric_handler
 from converter.news import setup_news_handler
@@ -86,8 +84,6 @@ setup_git_handler(app)
 setup_string_handler(app)
 setup_reboot_handler(app)
 setup_alive_handler(app)
-setup_scr_handler(app)
-setup_email_handler(app)
 setup_ban_handlers(app)
 setup_cric_handler(app)
 setup_news_handler(app)
