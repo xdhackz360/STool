@@ -1,4 +1,8 @@
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Replace these with your actual API details
 API_ID = os.getenv("API_ID")
@@ -7,14 +11,22 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 SESSION_STRING = os.getenv("SESSION_STRING")
 
 # Admin IDs Replace With Actual IDS
-ADMIN_IDS = list(map(int, os.getenv("ADMIN_IDS", "").split(",")))
+try:
+    ADMIN_IDS = list(map(int, os.getenv("ADMIN_IDS", "").split(",")))
+except ValueError as e:
+    print(f"Error parsing ADMIN_IDS: {os.getenv('ADMIN_IDS')}")
+    raise e
 
 # CC Scraper Limits
 DEFAULT_LIMIT = int(os.getenv("DEFAULT_LIMIT", 10000))
 ADMIN_LIMIT = int(os.getenv("ADMIN_LIMIT", 50000))
 
 # List of owner ids (add your owner ids here)
-OWNERS = list(map(int, os.getenv("OWNERS", "").split(",")))
+try:
+    OWNERS = list(map(int, os.getenv("OWNERS", "").split(",")))
+except ValueError as e:
+    print(f"Error parsing OWNERS: {os.getenv('OWNERS')}")
+    raise e
 
 # MongoDB connection setup
 MONGO_URL = os.getenv("MONGO_URL")
