@@ -1,0 +1,91 @@
+gen - CC Generator
+bin - Check BIN
+scr - CC Scrape
+ccscr - CC Scrape
+scrcc - CC Scrape
+scrmail - Mail Scrap
+mailscr - Mail Scrap
+fcc - For Filter CCS
+extp - CC Extrapolate
+mgn - Multi CC Generator
+mc - Multi CC Scrape
+topbin - Find Top BIN From Combo
+binbank - Find BIN Database
+bindb - Find BIN Database
+adbin - Filter Specific BIN Cards 
+rmbin - Remove Specific BIN Cards 
+gpt - Ask a question to ChatGPT 3.5
+gpt4 - Ask a question to ChatGPT 4
+gem - Ask a question to Gemini Ai
+imgai - Image analysis that can read image
+b64en - Base64 encode
+b64de - Base64 decode
+b32en - Base32 encode
+b32de - Base32 decode
+binen - Binary encode
+binde - Binary decode
+hexen - Hex encode
+hexde - Hex decode
+octen - Octal encode
+octde - Octal decode
+trev - Reverse text
+tcap - Transform to capital letters
+tsm - Transform to small letters
+wc - Count words
+fb - Download Facebook Video
+pin - Download Pinterest Video
+in - Download Instagram Reels
+sp - Download Spotify Track
+video - Download YouTube Video
+song - Download YouTube Video As Audio
+spell - Fix Word Spelling
+gra - Fix Grammatical Issues
+syn - Check Synonyms and Antonyms
+prn - Check Pronunciation
+fmail - FilterExtract Mails
+fpass - FilterExtract Mail Passwords
+scrmail - Mail-Pass Scrape for GC targets
+tmail - Generate Random Mail with Password
+tmail - Generate Specific Mail with Password
+cmail - Check Recent 10 Mails
+pyro - PyroGram Telegram String Session
+tele - TeleThon Telegram String Session
+sk - Get Information about Stripe Key
+skinfo - Check if Stripe Key is LiveDead
+ip - Get IP Information
+px - HTTPHTTPS Proxy Checker
+ss - Take Screenshot of Webpage
+ytag - Extract YouTube Video Tags
+ocr - Extract Text from Image
+fake - Generate Random Address
+ws - Download Website Source Code
+info - Get UserGroupChannel Info
+privacy - Privacy Policy for Smart Tool
+yth - Download YouTube Video Thumbnail
+time - Current Time and Date of any Country
+tr - Google Translator for words
+price - Real-Time Token Prices
+p2p - Latest P2P Trades in Currency BDT
+aud - Convert Video to Audio
+q - Generate a Sticker
+kang - Kang Stickers
+start - Start Smart Tool
+dmn - Check Domain Info
+git - Download Github Repository or Specific Branch
+gainers - Top Gainers List
+losers - Top Losers List
+extp - Extrapolate credit card data from a BIN
+topbin - Find Top Bin From Combo
+pnt - Download Pinterest Video
+yt - Download YouTube Video
+info - Retrieve detailed information about any user, bot,group, or channel
+rnd - Generate Random Address
+mbin - Check Multiple Bins
+ban - For Ban a user from group
+fuck - For Ban a user from group
+unban - For unban a user from group
+unfuck - For unban a user from group
+ban - For Multi Ban from group
+unban - For Multi unban from group
+matches - See All Match Update
+score - See Specific Match Analysis

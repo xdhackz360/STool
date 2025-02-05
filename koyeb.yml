@@ -1,0 +1,51 @@
+name: smart-tool-bot
+services:
+  - name: smart-tool-bot-service
+    type: web
+    description: "Smart Tool Bot Service"
+    build:
+      dockerfile_path: Dockerfile
+    ports:
+      - port: 80
+        protocol: http
+    env:
+      - key: API_ID
+        value: ${API_ID}
+      - key: API_HASH
+        value: ${API_HASH}
+      - key: BOT_TOKEN
+        value: ${BOT_TOKEN}
+      - key: SESSION_STRING
+        value: ${SESSION_STRING}
+      - key: ADMIN_IDS
+        value: ${ADMIN_IDS}
+      - key: DEFAULT_LIMIT
+        value: ${DEFAULT_LIMIT}
+      - key: ADMIN_LIMIT
+        value: ${ADMIN_LIMIT}
+      - key: OWNERS
+        value: ${OWNERS}
+      - key: MONGO_URL
+        value: ${MONGO_URL}
+      - key: GOOGLE_API_KEY
+        value: ${GOOGLE_API_KEY}
+      - key: MODEL_NAME
+        value: ${MODEL_NAME}
+      - key: SPOTIFY_CLIENT_ID
+        value: ${SPOTIFY_CLIENT_ID}
+      - key: SPOTIFY_CLIENT_SECRET
+        value: ${SPOTIFY_CLIENT_SECRET}
+      - key: OWNER_ID
+        value: ${OWNER_ID}
+      - key: API_KEY
+        value: ${API_KEY}
+      - key: API_HOST
+        value: ${API_HOST}
+      - key: NEWS_API_KEY
+        value: ${NEWS_API_KEY}
+      - key: BIN_KEY
+        value: ${BIN_KEY}
+    regions:
+      - eu-west-1
+    run:
+      command: "python main.py"
