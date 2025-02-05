@@ -19,4 +19,4 @@ pillow
 pymongo
 gTTS
 aiofiles
-dotenv
+python-dotenv
